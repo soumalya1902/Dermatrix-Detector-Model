@@ -15,6 +15,14 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
+ # Custom theme
+    custom_theme = """
+    [theme]
+    primaryColor="#ff4b4b"
+    backgroundColor="#292626"
+    secondaryBackgroundColor="#945d18"
+    textColor="#ffffff"
+    """
 
 def prediction_cls(prediction):
     for key, clss in class_names.items():
