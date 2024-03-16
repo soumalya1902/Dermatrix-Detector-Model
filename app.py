@@ -7,13 +7,6 @@ import numpy as np
 import warnings
 warnings.filterwarnings("ignore")
 
-[theme] # You have to add this line
-
-primaryColor = '#FF8C02' # Bright Orange
-
-backgroundColor = '#00325B' # Dark Blue
-
-secondaryBackgroundColor = '#55B2FF' # Lighter Blue
 
 def prediction_cls(prediction):
     for key, clss in class_names.items():
