@@ -2,6 +2,7 @@
 [client]
 showErrorDetails = false
 [theme]
+
 primaryColor="#ff4b4b"
 backgroundColor="#1e1d1d"
 secondaryBackgroundColor="#af6c10"
