@@ -7,6 +7,20 @@ import numpy as np
 import warnings
 warnings.filterwarnings("ignore")
 
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background-color: #2b2828;
+    }
+   .sidebar .sidebar-content {
+         background-color: #b16719;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
 def prediction_cls(prediction):
     for key, clss in class_names.items():
