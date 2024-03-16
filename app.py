@@ -7,26 +7,6 @@ import numpy as np
 import warnings
 warnings.filterwarnings("ignore")
 
-# Custom dark theme
-st.markdown(
-    """
-    <style>
-        body {
-            color: white;
-            background-color: #1e1e1e;
-        }
-        .css-1aumxhk {
-            color: #d1d1d1;
-        }
-        .css-17eq0hr {
-            background-color: #333333;
-            color: white;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
 
 def prediction_cls(prediction):
     for key, clss in class_names.items():
