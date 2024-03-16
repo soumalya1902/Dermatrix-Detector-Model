@@ -25,7 +25,7 @@ def prediction_cls(prediction):
 
 with st.sidebar:
         st.image('mg.png')
-        st.title("Dermagenics Detector Model")
+        st.title("Dermagenics Detector Tool")
         st.subheader("Accurate Detection of Skin Diseases along with Suggestion for Remedies to Cure that and get Fully Recovered")
 
              
