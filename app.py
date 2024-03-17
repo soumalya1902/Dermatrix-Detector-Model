@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore")
 
 st.set_page_config(
     page_title="Dermagenics",
-    page_icon = "🧡",
+   
     initial_sidebar_state = 'auto'
 )
 
