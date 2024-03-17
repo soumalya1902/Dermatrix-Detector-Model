@@ -26,25 +26,7 @@ with st.sidebar:
         st.title("Dermagenics Detector Tool")
         st.subheader("Accurate Detection of Skin Diseases along with Suggestion for Remedies to Cure that and get Fully Recovered")
 
-  # About App
-if selected == 'About App':
-    st.title('Predimed - Multiple Disease Prediction Tool')
-    st.write(
-        """
-        Welcome to Predimed, a Multiple Disease Prediction System. This application helps to predict various diseases 
-        such as Diabetes, Heart Disease, Parkinson, Liver Disease, Hepatitis, Lung Cancer, Kideny Disease and Breast Cancer. Please navigate through the sidebar to access different 
-        prediction pages. After making predictions, you can provide personal details for a final comprehensive report. 
-        Let's get started!
-        """
-    )
-  # About Author
-if selected == 'About Author':
-    st.title('Team Members behind this Model Building')
-    st.write(
-        """
-        Soumalya Bhattacharyya, Sayan Pan, Ritam Koley and Dinayan Mallik
-        """
-    )           
+     
         
 def prediction_cls(prediction):
     for key, clss in class_names.items():
