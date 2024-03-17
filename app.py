@@ -21,11 +21,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.set_page_config(
-    page_title="Dermagenics",
-    page_icon = "🧑‍⚕️",
-    initial_sidebar_state = 'auto'
-)
+
 
 def prediction_cls(prediction):
     for key, clss in class_names.items():
