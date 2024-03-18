@@ -50,7 +50,7 @@ with st.spinner('Model is being loaded..'):
     
 
 st.write("""
-         # Skin Disease Detection Model
+         # Dermatological Disease Detection Model
          """
          )
 
