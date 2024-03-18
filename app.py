@@ -25,7 +25,7 @@ with st.sidebar:
         st.image('mg.png')
         st.title("Dermagenics Detector Tool")
         st.subheader("Accurate Detection of Skin Diseases along with Suggestion for Remedies to Cure that and get Fully Recovered")
-        st.subheader("Creator - Soumalya Bhattacharyya")
+        st.subheader("Creator - Soumalya Bhattacharyya Sayan Pan and Ritam Koley")
 
      
         
